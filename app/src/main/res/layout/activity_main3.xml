@@ -23,15 +23,15 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="132dp"
-        android:layout_height="136dp"
+        android:layout_width="233dp"
+        android:layout_height="96dp"
         android:layout_marginEnd="126dp"
         android:layout_marginStart="126dp"
         android:layout_marginTop="31dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_launcher" />
+        app:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/textView2"
@@ -102,11 +102,11 @@
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginTop="246dp"
+        android:layout_marginTop="185dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_launcher" />
+        app:srcCompat="@drawable/angry" />
 </android.support.constraint.ConstraintLayout>

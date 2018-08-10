@@ -21,6 +21,8 @@ public class Main3Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
+        ImageView imageView3 = findViewById(R.id.imageView3);
+        imageView3.setImageDrawable(getResources().getDrawable(R.drawable.logo));
         ListView listView = findViewById(R.id.listView);
         ImageView imageView = findViewById(R.id.imageView10);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,budget);
